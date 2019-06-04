@@ -90,6 +90,7 @@
         }
     }
 
+    // This is helper function to convert BigInt to Int ...
     operation ReduceBigIntToInt(numL : BigInt) : Int {
         // Check if numL is not large
         Microsoft.Quantum.Diagnostics.Fact(BitSizeL(numL) <= 32, $"Cannot convert to Int. Input is too large");
