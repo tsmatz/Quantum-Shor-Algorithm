@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj": {}
+    "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj": {}
   },
   "projects": {
-    "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj": {
+    "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj",
+        "projectUniqueName": "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj",
         "projectName": "QSharpPeriodFinding",
-        "projectPath": "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj",
+        "projectPath": "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\QSharpPeriodFinding.csproj",
         "packagesPath": "C:\\Users\\tsmatsuz\\.nuget\\packages\\",
-        "outputPath": "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\obj\\",
+        "outputPath": "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -53,7 +53,7 @@
                 }
                 set periodCandidate = ReduceBigIntToInt(periodCandidateL);
 
-                // outout for debugging
+                // output for debugging
                 Message($"Calculated Fraction : {calculatedNumerator} / {calculatedDenominator}");
                 Message($"Approximated Fraction : {approximatedNumerator} / {approximatedDenominator}");
                 Message($"Period Candidate : {periodCandidate}");
@@ -63,7 +63,7 @@
         fixup {
         }
 
-        // outout for debugging
+        // output for debugging
         Message("Found period " + Microsoft.Quantum.Convert.IntAsString(periodCandidate));
         Message("");
     }
