@@ -1,0 +1,11 @@
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\bin\Debug\netcoreapp2.0\QSharpPeriodFinding.deps.json
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\bin\Debug\netcoreapp2.0\QSharpPeriodFinding.runtimeconfig.json
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\bin\Debug\netcoreapp2.0\QSharpPeriodFinding.runtimeconfig.dev.json
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\bin\Debug\netcoreapp2.0\QSharpPeriodFinding.dll
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\bin\Debug\netcoreapp2.0\QSharpPeriodFinding.pdb
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\obj\Debug\netcoreapp2.0\QSharpPeriodFinding.csprojAssemblyReference.cache
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\obj\Debug\netcoreapp2.0\QSharpPeriodFinding.csproj.CoreCompileInputs.cache
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\obj\Debug\netcoreapp2.0\QSharpPeriodFinding.AssemblyInfoInputs.cache
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\obj\Debug\netcoreapp2.0\QSharpPeriodFinding.AssemblyInfo.cs
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\obj\Debug\netcoreapp2.0\QSharpPeriodFinding.dll
+C:\Demo\QSharpPeriodFinding\QSharpPeriodFinding\obj\Debug\netcoreapp2.0\QSharpPeriodFinding.pdb
