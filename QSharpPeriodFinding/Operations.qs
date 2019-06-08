@@ -70,13 +70,13 @@
 
     // Implement : |x⟩ |0 (=y)⟩ -> |x⟩ |a^x mod N⟩ for some integer a
     // (where y should be |0⟩)
-    // This is modified version of QuantumExponentByMudulus() in my post.
+    // This is modified version of QuantumExponentByModulus() in my post.
     // See https://tsmatz.wordpress.com/2019/05/22/quantum-computing-modulus-add-subtract-multiply-exponent/
     operation QuantumExponentForPeriodFinding (a : Int, N : Int, x : Qubit[], y : Qubit[]) : Unit {
         let n1 = Length(x);
         let n2 = Length(y);
 
-        // set |y⟩ = |1⟩
+        // set |y⟩ = |0...01⟩
         X(y[n2 - 1]);
 
         for(idx in 0 .. n1 - 1) {
