@@ -54,7 +54,7 @@
                 set periodCandidate = ReduceBigIntToInt(periodCandidateL);
 
                 // output for debugging
-                Message($"Calculated Fraction : {calculatedNumerator} / {calculatedDenominator}");
+                Message($"Measured Fraction : {resultIntL} / {2L^n1}");
                 Message($"Approximated Fraction : {approximatedNumerator} / {approximatedDenominator}");
                 Message($"Period Candidate : {periodCandidate}");
             }

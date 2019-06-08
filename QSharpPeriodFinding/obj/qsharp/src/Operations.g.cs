@@ -4,37 +4,37 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumPeriodFinding\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"num\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":36}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"a\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumPeriodFinding\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumExponentForPeriodFinding\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":74,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"a\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":45}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":53},\"Item2\":{\"Line\":1,\"Column\":54}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":62},\"Item2\":{\"Line\":1,\"Column\":63}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":75},\"Item2\":{\"Line\":1,\"Column\":76}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumExponentForPeriodFinding\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":74,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"ReduceBigIntToInt\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":92,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"numL\"]},\"Type\":{\"Case\":\"BigInt\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":29},\"Item2\":{\"Line\":1,\"Column\":33}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"BigInt\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"ReduceBigIntToInt\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":92,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":18}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":22}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":114,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":53}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QFTImpl\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":53}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QFTImpl\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":53}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QFTImpl\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":136,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":36},\"Item2\":{\"Line\":1,\"Column\":37}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":136,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":136,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":68}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAdd\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":136,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":68}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumAdd\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":136,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":68}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAdd\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":147,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":31},\"Item2\":{\"Line\":1,\"Column\":32}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":147,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":147,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":72}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByNumber\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":147,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":72}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumAddByNumber\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":147,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":72}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByNumber\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":161,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":30}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":32},\"Item2\":{\"Line\":1,\"Column\":33}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":42}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":54},\"Item2\":{\"Line\":1,\"Column\":55}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":161,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":30}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":161,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":77},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByModulus\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":161,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":77},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumAddByModulus\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":161,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":77},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByModulus\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":182,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":38}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"a\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":46},\"Item2\":{\"Line\":1,\"Column\":47}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":55},\"Item2\":{\"Line\":1,\"Column\":56}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":182,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":182,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":78},\"Item2\":{\"Line\":1,\"Column\":87}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumMultiplyByModulus\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":182,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":78},\"Item2\":{\"Line\":1,\"Column\":87}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumMultiplyByModulus\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/QSharpPeriodFinding/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":182,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":78},\"Item2\":{\"Line\":1,\"Column\":87}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumMultiplyByModulus\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumPeriodFinding\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"num\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":36}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"a\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumPeriodFinding\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumExponentForPeriodFinding\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":74,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"a\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":45}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":53},\"Item2\":{\"Line\":1,\"Column\":54}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":62},\"Item2\":{\"Line\":1,\"Column\":63}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":75},\"Item2\":{\"Line\":1,\"Column\":76}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumExponentForPeriodFinding\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":74,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"ReduceBigIntToInt\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":93,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"numL\"]},\"Type\":{\"Case\":\"BigInt\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":29},\"Item2\":{\"Line\":1,\"Column\":33}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"BigInt\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"ReduceBigIntToInt\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":93,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":113,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":18}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":22}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":115,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":113,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":53}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QFTImpl\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":113,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":53}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QFTImpl\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QFTImpl\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":113,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":53}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QFTImpl\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":137,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":36},\"Item2\":{\"Line\":1,\"Column\":37}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":137,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":137,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":68}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAdd\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":137,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":68}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumAdd\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAdd\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":137,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":68}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAdd\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":148,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":31},\"Item2\":{\"Line\":1,\"Column\":32}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":44},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":148,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":148,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":72}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByNumber\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":148,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":72}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumAddByNumber\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByNumber\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":148,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":72}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByNumber\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":162,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":30}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":32},\"Item2\":{\"Line\":1,\"Column\":33}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":42}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":54},\"Item2\":{\"Line\":1,\"Column\":55}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":162,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":30}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":162,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":77},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByModulus\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":162,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":77},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumAddByModulus\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumAddByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":162,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":77},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumAddByModulus\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":183,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":38}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"a\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":46},\"Item2\":{\"Line\":1,\"Column\":47}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":55},\"Item2\":{\"Line\":1,\"Column\":56}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":183,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":183,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":78},\"Item2\":{\"Line\":1,\"Column\":87}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumMultiplyByModulus\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":183,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":78},\"Item2\":{\"Line\":1,\"Column\":87}},\"Documentation\":[\"automatically generated QsControlled specialization for Quantum.QSharpPeriodFinding.QuantumMultiplyByModulus\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QSharpPeriodFinding\",\"Name\":\"QuantumMultiplyByModulus\"},\"SourceFile\":\"C:/Demo/Quantum-Shor-Algorithm/QSharpPeriodFinding/Operations.qs\",\"Position\":{\"Item1\":183,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":78},\"Item2\":{\"Line\":1,\"Column\":87}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Quantum.QSharpPeriodFinding.QuantumMultiplyByModulus\"]}")]
 #line hidden
 namespace Quantum.QSharpPeriodFinding
 {
@@ -172,88 +172,88 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<(Int64,Int64), QVoid> Body => (__in__) =>
         {
             var (num,a) = __in__;
-#line 9 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 9 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n1 = (MicrosoftQuantumMathBitSizeI.Apply(num) * 2L);
-#line 10 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 10 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n2 = MicrosoftQuantumMathBitSizeI.Apply(num);
-#line 11 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 11 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var periodCandidate = 1L;
-#line 12 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 12 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             while (true)
             {
 #line hidden
                 {
-#line 13 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 13 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     var (x,y) = (Allocate.Apply(n1), Allocate.Apply(n2));
 #line hidden
                     Exception __arg1__ = null;
                     try
                     {
-#line 14 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 14 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         MicrosoftQuantumCanonApplyToEachCA.Apply((MicrosoftQuantumIntrinsicH, x));
-#line 17 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 17 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         QuantumExponentForPeriodFinding.Apply((a, num, x, y));
-#line 20 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 20 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var tmpResult = QArray<Result>.Create(n2);
-#line 21 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 21 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         foreach (var idx in new Range(0L, (n2 - 1L)))
 #line hidden
                         {
-#line 22 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 22 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                             tmpResult.Modify(idx, MicrosoftQuantumMeasurementMResetZ.Apply(y[idx]));
                         }
 
-#line 26 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 26 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         QFTImpl.Apply(x);
-#line 29 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 29 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var realResult = QArray<Result>.Create(n1);
-#line 30 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 30 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         foreach (var idx in new Range(0L, (n1 - 1L)))
 #line hidden
                         {
-#line 31 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 31 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                             realResult.Modify(idx, MicrosoftQuantumMeasurementMResetZ.Apply(x[idx]));
                         }
 
-#line 35 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 35 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var resultBool = (IQArray<Boolean>)QArray<Boolean>.Add(new QArray<Boolean>(false), MicrosoftQuantumConvertResultArrayAsBoolArray.Apply(realResult?.Copy()));
-#line 36 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 36 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var resultBool_R = (IQArray<Boolean>)MicrosoftQuantumArraysReversed.Apply<IQArray<Boolean>>(resultBool);
-#line 37 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 37 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var resultIntL = MicrosoftQuantumConvertBoolArrayAsBigInt.Apply(resultBool_R);
-#line 40 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 40 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var gcdL = MicrosoftQuantumMathGreatestCommonDivisorL.Apply((resultIntL, System.Numerics.BigInteger.Parse("2").Pow(n1)));
-#line 41 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 41 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var calculatedNumerator = (resultIntL / gcdL);
-#line 42 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 42 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var calculatedDenominator = (System.Numerics.BigInteger.Parse("2").Pow(n1) / gcdL);
-#line 43 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 43 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var numL = MicrosoftQuantumConvertIntAsBigInt.Apply(num);
-#line 44 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 44 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var approximatedFraction = MicrosoftQuantumMathContinuedFractionConvergentL.Apply((new Microsoft.Quantum.Math.BigFraction((calculatedNumerator, calculatedDenominator)), numL));
-#line 46 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 46 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var (approximatedNumerator,approximatedDenominator) = approximatedFraction.Data;
-#line 47 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 47 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         var periodCandidateL = System.Numerics.BigInteger.Parse("0");
-#line 48 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 48 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         if ((approximatedDenominator < System.Numerics.BigInteger.Parse("0")))
                         {
-#line 49 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 49 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                             periodCandidateL = (approximatedDenominator * -(System.Numerics.BigInteger.Parse("1")));
                         }
                         else
                         {
-#line 52 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 52 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                             periodCandidateL = approximatedDenominator;
                         }
 
-#line 54 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 54 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         periodCandidate = ReduceBigIntToInt.Apply(periodCandidateL);
-#line 57 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
-                        MicrosoftQuantumIntrinsicMessage.Apply(String.Format("Calculated Fraction : {0} / {1}", calculatedNumerator, calculatedDenominator));
-#line 58 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 57 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
+                        MicrosoftQuantumIntrinsicMessage.Apply(String.Format("Measured Fraction : {0} / {1}", resultIntL, System.Numerics.BigInteger.Parse("2").Pow(n1)));
+#line 58 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         MicrosoftQuantumIntrinsicMessage.Apply(String.Format("Approximated Fraction : {0} / {1}", approximatedNumerator, approximatedDenominator));
-#line 59 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 59 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         MicrosoftQuantumIntrinsicMessage.Apply(String.Format("Period Candidate : {0}", periodCandidate));
                     }
 #line hidden
@@ -286,9 +286,9 @@ namespace Quantum.QSharpPeriodFinding
                 }
             }
 
-#line 67 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 67 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply(("Found period " + MicrosoftQuantumConvertIntAsString.Apply(periodCandidate)));
-#line 68 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 68 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply("");
 #line hidden
             return QVoid.Instance;
@@ -364,27 +364,27 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<(Int64,Int64,IQArray<Qubit>,IQArray<Qubit>), QVoid> Body => (__in__) =>
         {
             var (a,N,x,y) = __in__;
-#line 76 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 76 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n1 = x.Length;
-#line 77 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 77 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n2 = y.Length;
-#line 80 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 80 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             MicrosoftQuantumIntrinsicX.Apply(y[(n2 - 1L)]);
-#line 82 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 82 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             foreach (var idx in new Range(0L, (n1 - 1L)))
 #line hidden
             {
-#line 84 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 84 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 var a_mod = 1L;
-#line 85 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 85 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 foreach (var power in new Range(1L, 2L.Pow(((n1 - 1L) - idx))))
 #line hidden
                 {
-#line 86 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 86 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     a_mod = ((a_mod * a) % N);
                 }
 
-#line 89 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 89 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 QuantumMultiplyByModulus.Controlled.Apply((new QArray<Qubit>(x[idx]), (N, a_mod, y)));
             }
 
@@ -449,29 +449,29 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<System.Numerics.BigInteger, Int64> Body => (__in__) =>
         {
             var numL = __in__;
-#line 95 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 96 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             MicrosoftQuantumDiagnosticsFact.Apply(((MicrosoftQuantumMathBitSizeL.Apply(numL) <= 32L), "Cannot convert to Int. Input is too large"));
-#line 97 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 98 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var resultInt = 0L;
-#line 98 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 99 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var numArray = (IQArray<Boolean>)MicrosoftQuantumConvertBigIntAsBoolArray.Apply(numL);
-#line 99 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 100 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var numArray_R = (IQArray<Boolean>)MicrosoftQuantumArraysReversed.Apply<IQArray<Boolean>>(numArray);
-#line 100 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 101 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var nSize = numArray_R.Length;
-#line 101 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 102 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             foreach (var idx in new Range(0L, (nSize - 1L)))
 #line hidden
             {
-#line 102 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 103 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 if ((numArray_R[idx] && (((nSize - 1L) - idx) <= 31L)))
                 {
-#line 103 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 104 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     resultInt = (resultInt + 2L.Pow(((nSize - 1L) - idx)));
                 }
             }
 
-#line 106 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 107 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             return resultInt;
         }
 
@@ -534,24 +534,24 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<IQArray<Qubit>, QVoid> Body => (__in__) =>
         {
             var qs = __in__;
-#line 117 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 118 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var nQubits = qs.Length;
-#line 119 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 120 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             foreach (var i in new Range(0L, (nQubits - 1L)))
 #line hidden
             {
-#line 121 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 122 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 MicrosoftQuantumIntrinsicH.Apply(qs[i]);
-#line 122 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 123 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 foreach (var j in new Range((i + 1L), (nQubits - 1L)))
 #line hidden
                 {
-#line 124 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 125 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     MicrosoftQuantumIntrinsicR1Frac.Controlled.Apply((new QArray<Qubit>(qs[j]), (1L, (j - i), qs[i])));
                 }
             }
 
-#line 128 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 129 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             MicrosoftQuantumCanonSwapReverseRegister.Apply(qs);
 #line hidden
             return QVoid.Instance;
@@ -702,24 +702,24 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> Body => (__in__) =>
         {
             var (x,y) = __in__;
-#line 138 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 139 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n = x.Length;
-#line 139 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 140 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             QFTImpl.Apply(y);
-#line 140 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 141 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             foreach (var i in new Range(0L, (n - 1L)))
 #line hidden
             {
-#line 141 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 142 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 foreach (var j in new Range(0L, ((n - 1L) - i)))
 #line hidden
                 {
-#line 142 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 143 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     MicrosoftQuantumIntrinsicR1Frac.Controlled.Apply((new QArray<Qubit>(x[(i + j)]), (2L, (j + 1L), y[((n - 1L) - i)])));
                 }
             }
 
-#line 145 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 146 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             QFTImpl.Adjoint.Apply(y);
 #line hidden
             return QVoid.Instance;
@@ -867,28 +867,28 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<(IQArray<Qubit>,Int64), QVoid> Body => (__in__) =>
         {
             var (x,b) = __in__;
-#line 149 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 150 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n = x.Length;
-#line 151 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 152 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             QFTImpl.Apply(x);
-#line 152 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 153 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             foreach (var i in new Range(0L, (n - 1L)))
 #line hidden
             {
-#line 153 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 154 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 foreach (var j in new Range(0L, ((n - 1L) - i)))
 #line hidden
                 {
-#line 154 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 155 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     if (!((((b / 2L.Pow(((n - 1L) - (i + j)))) % 2L) == 0L)))
                     {
-#line 155 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 156 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         MicrosoftQuantumIntrinsicR1Frac.Apply((2L, (j + 1L), x[((n - 1L) - i)]));
                     }
                 }
             }
 
-#line 159 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 160 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             QFTImpl.Adjoint.Apply(x);
 #line hidden
             return QVoid.Instance;
@@ -1056,31 +1056,31 @@ namespace Quantum.QSharpPeriodFinding
             var (N,x,y) = __in__;
 #line hidden
             {
-#line 163 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 164 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 var (ancilla,cx,cy) = (Allocate.Apply(), Allocate.Apply(), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 165 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 166 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     var x_large = (IQArray<Qubit>)QArray<Qubit>.Add(new QArray<Qubit>(cx), x);
-#line 166 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 167 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     var y_large = (IQArray<Qubit>)QArray<Qubit>.Add(new QArray<Qubit>(cy), y);
-#line 168 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 169 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     QuantumAdd.Apply((x_large, y_large));
-#line 170 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 171 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     QuantumAddByNumber.Adjoint.Apply((y_large, N));
-#line 172 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 173 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     MicrosoftQuantumIntrinsicX.Controlled.Apply((new QArray<Qubit>(y_large[0L]), ancilla));
-#line 174 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 175 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     QuantumAddByNumber.Controlled.Apply((new QArray<Qubit>(ancilla), (y_large, N)));
-#line 176 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 177 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     QuantumAdd.Adjoint.Apply((x_large, y_large));
-#line 177 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 178 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     MicrosoftQuantumIntrinsicX.Apply(ancilla);
-#line 178 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 179 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     MicrosoftQuantumIntrinsicX.Controlled.Apply((new QArray<Qubit>(y_large[0L]), ancilla));
-#line 179 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 180 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     QuantumAdd.Apply((x_large, y_large));
                 }
 #line hidden
@@ -1382,35 +1382,35 @@ namespace Quantum.QSharpPeriodFinding
         public override Func<(Int64,Int64,IQArray<Qubit>), QVoid> Body => (__in__) =>
         {
             var (N,a,y) = __in__;
-#line 184 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 185 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var n = y.Length;
-#line 185 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 186 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
             var a_mod = (a % N);
 #line hidden
             {
-#line 187 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 188 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                 var s = Allocate.Apply(n);
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 191 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 192 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     foreach (var r in new Range(0L, (a_mod - 1L)))
 #line hidden
                     {
-#line 192 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 193 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         QuantumAddByModulus.Apply((N, y, s));
                     }
 
-#line 197 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 198 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     MicrosoftQuantumCanonApplyToEachCA.Apply((MicrosoftQuantumIntrinsicSWAP, MicrosoftQuantumArraysZip.Apply<IQArray<(Qubit,Qubit)>>((y, s))));
-#line 202 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 203 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     var a_inv = MicrosoftQuantumMathInverseModI.Apply((a_mod, N));
-#line 203 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 204 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                     foreach (var r in new Range(0L, (a_inv - 1L)))
 #line hidden
                     {
-#line 204 "C:\\Demo\\QSharpPeriodFinding\\QSharpPeriodFinding\\Operations.qs"
+#line 205 "C:\\Demo\\Quantum-Shor-Algorithm\\QSharpPeriodFinding\\Operations.qs"
                         QuantumAddByModulus.Adjoint.Apply((N, y, s));
                     }
                 }
