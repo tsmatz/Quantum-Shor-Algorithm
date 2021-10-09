@@ -1,4 +1,4 @@
-# Q# Sample for Shor's Algorithm (Quantum Order-Finding)
+# Q# Example for Shor's Algorithm (Quantum Order-Finding)
 
 - This code is written straight forward in order to help you understand the logic flow. (For instance, so many QFTs are called inside my function.) When you have learned core essence in this code, please proceed to optimize this code.
 - It won't work for a large number N. (Since it needs so many qubits in parallel.)
